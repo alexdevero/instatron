@@ -1,0 +1,68 @@
+{
+  "name": "instagram-desktop-uploader",
+  "version": "0.0.1",
+  "description": "Cool Instagram desktop uploader app build with electron.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/instagram-desktop-uploader.git"
+  },
+  "homepage": "https://github.com/alexdevero/instagram-desktop-uploader#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/instagram-desktop-uploader/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "email": "deveroalex@gmail.com",
+    "url": "https://alexdevero.com/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "app",
+    "application",
+    "desktop",
+    "desktop-app",
+    "desktop-application",
+    "electron",
+    "electron-app",
+    "instagram",
+    "javascript",
+    "uploader"
+  ],
+  "engines": {
+    "node": ">=9.x",
+    "npm": ">=5.x",
+    "yarn": ">=1.x.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --config webpack.build.config.js",
+    "start": "electron ./src",
+    "package": "electron-builder --dir",
+    "postpackage": "electron-packager ./ --out=./builds",
+    "prod": "parcel && electron --noDevServer ."
+  },
+  "dependencies": {
+    "electron": "^1.7.9",
+    "mobx": "3.4.1",
+    "mobx-react": "4.3.5",
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "electron-builder": "19.52.1",
+    "electron-packager": "^10.1.0",
+    "parcel-bundler": "^1.4.1"
+  }
+}
