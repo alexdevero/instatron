@@ -61,7 +61,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "cross-env": "^5.1.1",
-    "electron-builder": "19.52.1",
+    "electron-builder": "19.54.0",
     "electron-packager": "^10.1.0",
     "parcel-bundler": "^1.4.1"
   }
