@@ -1,4 +1,10 @@
 <p align="center">
+  <img src="https://cdn.rawgit.com/alexdevero/grease-the-groove-app/master/assets/instagram-uploader-icon.png" width="135" align="center">
+  <br>
+  <br>
+</p>
+
+<p align="center">
   <a href="https://david-dm.org/alexdevero/instagram-desktop-uploader"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/instagram-desktop-uploader.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/instagram-desktop-uploader?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/instagram-desktop-uploader/dev-status.svg?style=flat"></a>
   <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://img.shields.io/npm/l/express.svg"></a>

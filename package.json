@@ -43,7 +43,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "package": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite",
+    "package": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --icon=assets/instagram-uploader-icon",
     "start": "cross-env NODE_ENV=dev electron app.js"
   },
   "devDependencies": {
