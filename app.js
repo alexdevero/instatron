@@ -47,7 +47,7 @@ app.once('ready', () => {
     window.show()
     
     // Open the DevTools.
-    if (process.env.NODE_ENV.trim() === 'dev') {
+    if (process.env.NODE_ENV !== undefined && process.env.NODE_ENV.trim() === 'dev') {
       window.webContents.openDevTools()
     }
   })
