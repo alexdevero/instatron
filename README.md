@@ -50,6 +50,16 @@ or
 yarn run start
 ```
 
+#### Build the app
+
+```
+npm run package
+```
+or
+```
+yarn run package
+```
+
 ### Code of Conduct
 
 [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
