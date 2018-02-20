@@ -33,7 +33,7 @@ app.once('ready', () => {
 
   // URL is argument to npm start
   const url = 'https://instagram.com' // process.argv[2]
-  
+
   // Query all cookies associated with a specific url.
   session.defaultSession.cookies.get({}, (error, cookies) => {
     console.log(error, cookies)
@@ -45,10 +45,19 @@ app.once('ready', () => {
   window.once('ready-to-show', () => {
     // window.maximize()
     window.show()
-    
+
     // Open the DevTools.
     if (process.env.NODE_ENV !== undefined && process.env.NODE_ENV.trim() === 'dev') {
       window.webContents.openDevTools()
     }
   })
+})
+
+// Quit when all windows are closed.
+app.on('window-all-closed', function () {
+  // On OS X it is common for applications and their menu bar
+  // to stay active until the user quits explicitly with Cmd + Q
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
 })
