@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.rawgit.com/alexdevero/grease-the-groove-app/master/assets/instagram-uploader-icon.png" width="135" align="center">
+  <img src="https://cdn.rawgit.com/alexdevero/instagram-desktop-uploader/master/assets/instagram-uploader-icon.png" width="135" align="center">
   <br>
   <br>
 </p>
