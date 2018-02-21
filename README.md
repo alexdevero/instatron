@@ -31,7 +31,7 @@ A simple Instagram desktop uploader & client app build with electron. Share your
 #### Clone this repo
 
 ```
-git clone https://github.com/alexdevero/electron-react-webpack-boilerplate.git
+git clone https://github.com/alexdevero/instatron.git
 ```
 
 #### Install dependencies
