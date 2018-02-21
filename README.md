@@ -17,7 +17,7 @@
 
 # Instagram desktop uploader
 
-Cool Instagram desktop uploader app build with electron.
+A simple Instagram desktop uploader & client app build with electron. Share your photos and images just like on your mobile phone!
 
 ### Table of contents
 
