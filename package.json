@@ -1,7 +1,7 @@
 {
-  "name": "instagram-desktop-uploader",
+  "name": "instatron",
   "version": "0.0.1",
-  "description": "Cool Instagram desktop uploader app build with electron.",
+  "description": "A simple Instagram desktop uploader & client app build with electron.",
   "license": "MIT",
   "private": false,
   "repository": {
