@@ -15,7 +15,7 @@
   <a href="https://github.com/alexdevero/instagram-desktop-uploader/releases"><img alt="Current release" src="https://img.shields.io/github/release/alexdevero/instagram-desktop-uploader.svg"></a>
 </p>
 
-# Instagram desktop uploader
+# Instatron - Instagram desktop uploader
 
 A simple Instagram desktop uploader & client app build with electron. Share your photos and images just like on your mobile phone!
 
