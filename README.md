@@ -20,7 +20,7 @@
 A simple Instagram desktop uploader & client app build with electron. Share your photos and images just like on your mobile phone!
 
 <p align="center">
-  <img src="https://cdn.rawgit.com/alexdevero/instagram-desktop-uploader/master/docs/instagram-screen.png" width="800">
+  <img src="https://cdn.rawgit.com/alexdevero/instagram-desktop-uploader/master/docs/instatron-screen.png" width="800">
   <br>
   <br>
 </p>
