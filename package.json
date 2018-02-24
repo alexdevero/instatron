@@ -43,7 +43,11 @@
   },
   "main": "app.js",
   "scripts": {
-    "package": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --icon=assets/instagram-uploader-icon",
+    "package:linux": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=linux --icon=assets/instagram-uploader-icon",
+    "package:macappstore": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=mas --icon=assets/instagram-uploader-icon",
+    "package:osx": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=assets/instagram-uploader-icon",
+    "package:win": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=assets/instagram-uploader-icon",
+    "package:all": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=all --icon=assets/instagram-uploader-icon",
     "start": "cross-env NODE_ENV=dev electron app.js"
   },
   "devDependencies": {
