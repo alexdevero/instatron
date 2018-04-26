@@ -1,5 +1,9 @@
 const {app, BrowserWindow, dialog, Menu, session} = require('electron') // http://electron.atom.io/docs/api
 
+require('electron-context-menu')({
+  prepend: (params, browserWindow) => []
+})
+
 let window = null
 
 // Temporary fix broken high-dpi scale factor on Windows (125% scaling)
