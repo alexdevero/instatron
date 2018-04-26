@@ -20,7 +20,7 @@ app.once('ready', () => {
   // Create a new window
   window = new BrowserWindow({
     // Set the initial width to 800px
-    width: 375,
+    width: 600,
     // Set the initial height to 600px
     height: 667,
     // Don't show the window until it ready, this prevents any white flickering
@@ -120,7 +120,9 @@ app.once('ready', () => {
   // Build menu from menuTemplate
   const menu = Menu.buildFromTemplate(menuTemplate)
 
-  window.loadURL(url, {userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1'})
+  window.loadURL(url, {
+    userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B137 Safari/601.1'
+  })
 
   // Set menu to menuTemplate
   Menu.setApplicationMenu(menu)
