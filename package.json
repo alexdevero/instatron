@@ -54,5 +54,8 @@
     "cross-env": "^5.1.4",
     "electron": "^1.8.4",
     "electron-packager": "^12.0.1"
+  },
+  "dependencies": {
+    "electron-context-menu": "^0.9.1"
   }
 }
