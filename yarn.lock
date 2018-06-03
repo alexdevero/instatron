@@ -183,9 +183,9 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cross-env@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.1.4.tgz#f61c14291f7cc653bb86457002ea80a04699d022"
+cross-env@^5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.1.6.tgz#0dc05caf945b24e4b9e3b12871fe0e858d08b38d"
   dependencies:
     cross-spawn "^5.1.0"
     is-windows "^1.0.0"
@@ -320,9 +320,9 @@ electron-osx-sign@^0.4.1:
     minimist "^1.2.0"
     plist "^2.1.0"
 
-electron-packager@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/electron-packager/-/electron-packager-12.0.2.tgz#095ae95aa4bd09930341db23166ea371e814991a"
+electron-packager@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/electron-packager/-/electron-packager-12.1.0.tgz#048dd4ff3848be19c5873c315b5b312df6215328"
   dependencies:
     asar "^0.14.0"
     debug "^3.0.0"
@@ -342,9 +342,9 @@ electron-packager@^12.0.2:
     semver "^5.3.0"
     yargs-parser "^10.0.0"
 
-electron@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.0.tgz#e95dc7f3a089a52b8c2a52c7c9e1024db0c8d46e"
+electron@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.2.tgz#b77e05f83419cc5ec921a2d21f35b55e4bfc3d68"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
