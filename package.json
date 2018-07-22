@@ -51,11 +51,11 @@
     "start": "cross-env NODE_ENV=dev electron app.js"
   },
   "devDependencies": {
-    "cross-env": "^5.1.6",
-    "electron": "^2.0.2",
+    "cross-env": "^5.2.0",
+    "electron": "^2.0.5",
     "electron-packager": "^12.1.0"
   },
   "dependencies": {
-    "electron-context-menu": "^0.9.1"
+    "electron-context-menu": "^0.10.0"
   }
 }
