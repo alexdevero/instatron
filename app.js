@@ -147,11 +147,6 @@ app.once('ready', () => {
   })
 })
 
-app.on('before-quit', () => {
-  // Clear cache
-  clearAppCache()
-})
-
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
   // On OS X it is common for applications and their menu bar
