@@ -103,6 +103,10 @@ app.once('ready', () => {
         {
           label: 'Check cache size',
           click: () => {window.webContents.session.getCacheSize((size) => dialog.showMessageBox({type: 'info', buttons: ['OK'], message: `Cache size is: ${size} bytes.`}))}
+        },
+        {
+          label: 'Open dev tools',
+          click: () => {window.webContents.openDevTools()}
         }
       ]
     },
