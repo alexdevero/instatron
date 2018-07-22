@@ -23,9 +23,9 @@ if (process.platform === 'win32') {
 app.once('ready', () => {
   // Create a new window
   window = new BrowserWindow({
-    // Set the initial width to 800px
-    width: 600,
-    // Set the initial height to 600px
+    // Set the initial width to 767px
+    width: 767,
+    // Set the initial height to 667px
     height: 667,
     // Don't show the window until it ready, this prevents any white flickering
     show: false,
