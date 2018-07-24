@@ -30,6 +30,7 @@ A simple Instagram desktop uploader & client app build with electron. Share your
 * [Features](#features)
 * [Install](#install)
 * [Usage](#usage)
+* [Support this project](#support-this-project)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
 
@@ -83,6 +84,20 @@ or
 ```
 yarn run package
 ```
+
+### Support this project
+
+I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously,
+this takes time. You can use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).
+
+If you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+
+ - Starring and sharing the project
+ - [![Donate](https://img.shields.io/badge/Donate-Paypal-brightgreen.svg?colorB=259cd2)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YKLGUUB34ASEL)—make one-time donations via PayPal.
+ - [![Donate](https://img.shields.io/badge/Donate-Patreon-brightgreen.svg?colorB=f86213)](https://www.patreon.com/alexdevero)—set up monthly donation via Patreon and get interesting news about what I'm doing.
+ - <img alt="bitcoin" src="https://img.shields.io/badge/Donate-Bitcoin-brightgreen.svg?colorB=fab915">—send bitcoins or ethereum to this address: `19jHGagJWeVvuNjN3kaBoAszXd9ea9gKzp`.
+
+Thank you!
 
 ### Code of Conduct
 
