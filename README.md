@@ -27,10 +27,22 @@ A simple Instagram desktop uploader & client app build with electron. Share your
 
 ### Table of contents
 
+* [Features](#features)
 * [Install](#install)
 * [Usage](#usage)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
+
+### Features
+
+- Upload & post images
+- Browse photos
+- Follow/unfollow users
+- Bookmark photos
+- Like photos
+- Manage your profile
+- Manage your settings
+- Watch moments
 
 ### Install
 
