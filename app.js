@@ -164,10 +164,10 @@ app.once('ready', () => {
   ])
 
   // Set title for tray icon
-  appIcon.setTitle('Khan Academy')
+  appIcon.setTitle('Instatron')
 
   // Set toot tip for tray icon
-  appIcon.setToolTip('Khan Academy')
+  appIcon.setToolTip('Instatron')
 
   // Create RightClick context menu
   appIcon.setContextMenu(contextMenu)
