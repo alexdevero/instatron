@@ -31,8 +31,7 @@ if (platform == 'darwin') {
 //   callback({ cancel: false, requestHeaders: details.requestHeaders })
 // })
 
-// Wait until the app is ready
-app.once('ready', () => {
+function createWindow() {
   // Create a new window
   window = new BrowserWindow({
     // Set the initial width to 767px
@@ -201,7 +200,7 @@ app.once('ready', () => {
     event.preventDefault()
     // window.minimize()
     window.hide()
-})
+  })
 
   // Show window when page is ready
   window.once('ready-to-show', () => {
@@ -213,7 +212,10 @@ app.once('ready', () => {
       window.webContents.openDevTools()
     }
   })
-})
+}
+
+// Wait until the app is ready
+app.once('ready', createWindow)
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
