@@ -6,9 +6,15 @@ require('electron-context-menu')({
   prepend: (params, browserWindow) => []
 })
 
+// Create variables for appIcon, trayIcon, window
+// to prevent their removal by garbage collection
 let window = null
 let appIcon = null
 let trayIcon = null
+
+// Request lock to allow only one instance
+// of the app running at the time.
+const gotTheLock = app.requestSingleInstanceLock()
 
 // Temporary fix broken high-dpi scale factor on Windows (125% scaling)
 // info: https://github.com/electron/electron/issues/9691
@@ -214,8 +220,22 @@ function createWindow() {
   })
 }
 
-// Wait until the app is ready
-app.once('ready', createWindow)
+// Check if this is first instance of the app running.
+// If not, block it. If yes, allow it.
+if (!gotTheLock) {
+  app.quit()
+} else {
+  app.on('second-instance', (event, commandLine, workingDirectory) => {
+    // Someone tried to run a second instance, we should focus our window.
+    if (win) {
+        if (win.isMinimized()) win.restore()
+            win.focus()
+    }
+  })
+
+  // Wait until the app is ready
+  app.once('ready', createWindow)
+}
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
