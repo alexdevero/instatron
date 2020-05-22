@@ -1,4 +1,4 @@
-const { app, BrowserWindow, dialog, Menu, platform, session, Tray } = require('electron') // http://electron.atom.io/docs/api
+const { app, BrowserWindow, dialog, Menu, nativeImage, platform, session, Tray } = require('electron') // http://electron.atom.io/docs/api
 
 const path = require('path')
 
@@ -30,6 +30,8 @@ if (platform == 'darwin') {
 } else {
   trayIcon = path.join(__dirname, 'assets/instagram-uploader-icon.ico')
 }
+
+trayIcon = nativeImage.createFromPath(trayIcon)
 
 // session.defaultSession.webRequest.onBeforeSendHeaders((details, callback) => {
 //   details.requestHeaders['User-Agent'] = 'SuperDuperAgent'
