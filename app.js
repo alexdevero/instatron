@@ -179,9 +179,6 @@ function createWindow() {
   // Create RightClick context menu
   appIcon.setContextMenu(contextMenu)
 
-  // Always highlight the tray icon
-  appIcon.setHighlightMode('always')
-
   // The tray icon is not destroyed
   appIcon.isDestroyed(false)
 
