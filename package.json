@@ -1,6 +1,6 @@
 {
   "name": "instatron",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A simple Instagram desktop uploader & client app build with electron.",
   "license": "MIT",
   "private": false,
